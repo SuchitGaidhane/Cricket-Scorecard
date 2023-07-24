@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Scorecard</title>
+    <link rel="icon" type="image/x-icon" href="assets/sg.jpg">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+<div class="Wrapper">
+
+    <div class="overlay">
+
+        <div class="scoreboard">
+            <h1 class="title"> Score Card</h1>
+            <div class="scores">
+                <p>Runs: <span class="variables" id="runs">0</span></p>
+                <p>Overs: <span class="variables" id="overs">0</span>.<span class="variables" id="balls">0</span></p>
+                <p>Wickets: <span class="variables" id="wickets">0</span></p>
+            </div>
+
+            <div class="buttons">
+                <button class="ds-btn btn" onclick="incrementRuns(1)">1 Run</button>
+                <button class="ds-btn btn" onclick="incrementRuns(2)">2 Runs</button>
+                <button class="ds-btn btn" onclick="incrementRuns(3)">3 Runs</button>
+                <button class="ds-btn btn" onclick="incrementRuns(4)">4 Runs</button>
+                <button class="ds-btn btn" onclick="incrementRuns(6)">6 Runs</button>
+                <button class="ds-btn btn" onclick="incrementBalls()">Ball</button>
+                <button class="ds-btn btn"  onclick="incrementWickets()">Wicket</button>
+                <button class="ds-btn btn" onclick="undoAction()">Undo</button>
+                <button class="ds-btn btn" onclick="resetGame()">Reset</button>
+            </div>
+        </div>
+     </div>
+</div>
+
+<footer>
+    <div class="footer">
+       <a href="https://github.com/SuchitGaidhane" target="_blank"> <img src="assets/github.png" width="25px"  alt="github"></a>
+       <a href="https://www.linkedin.com/in/suchit-gaidhane-85a455228/" target="_blank"> <img src="assets/linkedin.png" width="25px" alt="iinkedin"></a>
+       <a href="https://www.bcci.tv/" target="_blank">  <img src="assets/cric.png"  width="20px"></a>
+    </div>
+    <div class="ends">
+       <p>- Made by Suchit Gaidhane </p>
+    </div>
+</footer>
+    <script src="index.js"></script>
+</body>
+</html>
