@@ -2,7 +2,7 @@
 Cricket Scorecard project using HTML, CSS, and JavaScript..
 
 
-check out- https://suchitgaidhane.github.io/Cricket-Scorecard/
+check out- https://cricketscorecardbysg.netlify.app/
 
 
 Project @ IBase Electrosoft LLP
